@@ -80,8 +80,8 @@
     <File name="cmsis_boot" path="" type="2"/>
     <File name="Bargraph.h" path="Bargraph.h" type="1"/>
     <File name="cmsis_core/core_cmFunc.h" path="cmsis_core/core_cmFunc.h" type="1"/>
-    <File name="cmsis_lib/Include/Driver/DrvSYS.h" path="cmsis_lib/Include/Driver/DrvSYS.h" type="1"/>
     <File name="cmsis_lib/Include/System/ModuleID.h" path="cmsis_lib/Include/System/ModuleID.h" type="1"/>
+    <File name="cmsis_lib/Include/Driver/DrvSYS.h" path="cmsis_lib/Include/Driver/DrvSYS.h" type="1"/>
     <File name="cmsis_lib/Include/Driver/DrvADC.h" path="cmsis_lib/Include/Driver/DrvADC.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_lib/Include/System" path="" type="2"/>

@@ -4,9 +4,9 @@
 #include "adc.h"
 #include "Bargraph.h"
 
-uint32_t adc_agnd[2] = {2048,2048};	// Calculated virtual analog ground ADC value
-uint32_t adc_agnd_arr[2][16];	// The previous 16 agnd value (circular buffer!!!), fill at startup with the adc mean value
-unsigned char adc_agnd_arr_pos[2] = {0,0};
+// uint32_t adc_agnd[2] = {2048,2048};	// Calculated virtual analog ground ADC value
+// uint32_t adc_agnd_arr[2][16];	// The previous 16 agnd value (circular buffer!!!), fill at startup with the adc mean value
+// unsigned char adc_agnd_arr_pos[2] = {0,0};
 unsigned char adc_result[2] = {0,0};	// The final displayable result
 const uint32_t adc_sqrt_levels[50] = { // The calculated levels of the display LEDs
      11,      18,      28,      45,      71,     112,     177,     281,     445,    706,
@@ -16,7 +16,7 @@ const uint32_t adc_sqrt_levels[50] = { // The calculated levels of the display L
 1254956, 1408084, 1579896, 1772673, 1988972, 2231663, 2503967, 2809497, 3152308, 3536948};
 
 uint64_t adc_aggregate[2] = {0,0}; // Aggregate value of the adc
-uint32_t adc_agnd_aggregate[2] = {0,0}; // Aggregate value of the agnd
+// uint32_t adc_agnd_aggregate[2] = {0,0}; // Aggregate value of the agnd
 uint32_t adc_sample_pos[2] = {0,0}; // current position of the sample taking
 
 /*
@@ -94,19 +94,21 @@ unsigned char level_search(uint32_t level)
 void adc_addvalue(unsigned char ch, uint32_t value)
 {
 	int32_t tmp_value;
-	unsigned char i;
-	tmp_value = value - adc_agnd[ch]; // subtract virtual ground
+//	unsigned char i;
+//	tmp_value = value - adc_agnd[ch]; // subtract virtual ground
+	tmp_value = value;
 	tmp_value *= tmp_value; // power
 	adc_aggregate[ch] += tmp_value; // add to the aggregate
-	adc_agnd_aggregate[ch] += value;
+//	adc_agnd_aggregate[ch] += value;
 	adc_sample_pos[ch]++;
 	if(adc_sample_pos[ch] == (1 << NUM_SAMPLE_POWER))
 	{
 		// calculate the gnd avg and add gnd avg to the circular buffer
-		adc_agnd_arr[ch][adc_agnd_arr_pos[ch]] = adc_agnd_aggregate[ch] >> NUM_SAMPLE_POWER;
+//		adc_agnd_arr[ch][adc_agnd_arr_pos[ch]] = adc_agnd_aggregate[ch] >> NUM_SAMPLE_POWER;
 		// advance the circular buffer position or reset if it is at the end
-		adc_agnd_arr_pos[ch] = (adc_agnd_arr_pos[ch] == 15) ? 0 : adc_agnd_arr_pos[ch] + 1;
+//		adc_agnd_arr_pos[ch] = (adc_agnd_arr_pos[ch] == 15) ? 0 : adc_agnd_arr_pos[ch] + 1;
 		// calculate the buffer avg
+/*
 		tmp_value = 0;
 		for(i=0;i<16;i++)
 		{
@@ -114,12 +116,12 @@ void adc_addvalue(unsigned char ch, uint32_t value)
 		}
 		// add the buffer avg to the adc_agnd
 		adc_agnd[ch] = tmp_value >> 4;
-
+*/
 		// calculate the value avg and find the level in the adc_sqrt_levels (btree)
 		adc_result[ch] = level_search(adc_aggregate[ch] >> NUM_SAMPLE_POWER);
 		// reset the adc_sample_pos
 		adc_sample_pos[ch] = 0;
-		adc_agnd_aggregate[ch] = 0;
+//		adc_agnd_aggregate[ch] = 0;
 		adc_aggregate[ch] = 0;
 	}
 }

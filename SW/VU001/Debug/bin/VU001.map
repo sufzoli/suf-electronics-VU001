@@ -1,16 +1,15 @@
 Archive member included because of file (symbol)
 
-c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
                               ..\obj\DrvSYS.o (__aeabi_uidiv)
-c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
-                              c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
-c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
                               ..\obj\DrvADC.o (memcpy)
 
 Allocating common symbols
 Common symbol       size              file
 
-adc_agnd_arr        0x80              ..\obj\adc.o
 bg_r                0x1               ..\obj\Bargraph.o
 bg_disp_pos         0x1               ..\obj\Bargraph.o
 bg_l                0x1               ..\obj\Bargraph.o
@@ -71,7 +70,7 @@ Discarded input sections
  .text.DrvGPIO_SetDebounceTime
                 0x00000000       0x64 ..\obj\DrvGPIO.o
  .text.DrvGPIO_GetDebounceSampleCycle
-                0x00000000       0x18 ..\obj\DrvGPIO.o
+                0x00000000       0x1c ..\obj\DrvGPIO.o
  .text.DrvGPIO_EnableInt
                 0x00000000      0x154 ..\obj\DrvGPIO.o
  .text.DrvGPIO_DisableInt
@@ -121,7 +120,7 @@ Discarded input sections
  .text.DrvSYS_DisableBODLowPowerMode
                 0x00000000       0x14 ..\obj\DrvSYS.o
  .text.DrvSYS_GetBODState
-                0x00000000       0x18 ..\obj\DrvSYS.o
+                0x00000000       0x1c ..\obj\DrvSYS.o
  .text.DrvSYS_EnableLowVoltReset
                 0x00000000       0x14 ..\obj\DrvSYS.o
  .text.DrvSYS_DisableLowVoltReset
@@ -148,18 +147,19 @@ Discarded input sections
  .text.DrvSYS_GetExtClockFreq
                 0x00000000       0x10 ..\obj\DrvSYS.o
  .text.DrvSYS_GetPLLClockFreq
-                0x00000000       0xa4 ..\obj\DrvSYS.o
+                0x00000000       0xb4 ..\obj\DrvSYS.o
  .text.DrvSYS_GetHCLKFreq
-                0x00000000       0x80 ..\obj\DrvSYS.o
+                0x00000000       0x88 ..\obj\DrvSYS.o
  .text.DrvSYS_SetFreqDividerOutput
                 0x00000000       0x74 ..\obj\DrvSYS.o
  .text.DrvSYS_Delay
                 0x00000000       0x3c ..\obj\DrvSYS.o
  .text.DrvSYS_GetClockSwitchStatus
-                0x00000000       0x18 ..\obj\DrvSYS.o
+                0x00000000       0x1c ..\obj\DrvSYS.o
  .text.DrvSYS_ClearClockSwitchStatus
                 0x00000000       0x18 ..\obj\DrvSYS.o
  .text          0x00000000        0x0 ..\obj\adc.o
+ .data          0x00000000        0x0 ..\obj\adc.o
  .text          0x00000000        0x0 ..\obj\system_M051Series.o
  .bss           0x00000000        0x0 ..\obj\system_M051Series.o
  .text          0x00000000        0x0 ..\obj\DrvADC.o
@@ -191,7 +191,7 @@ Discarded input sections
  .text.DrvADC_DisableADCCmp1Int
                 0x00000000       0x18 ..\obj\DrvADC.o
  .text.DrvADC_GetConversionRate
-                0x00000000       0x90 ..\obj\DrvADC.o
+                0x00000000       0xa0 ..\obj\DrvADC.o
  .text.DrvADC_EnableExtTrigger
                 0x00000000       0x74 ..\obj\DrvADC.o
  .text.DrvADC_DisableExtTrigger
@@ -216,22 +216,22 @@ Discarded input sections
  .text.DrvADC_EnableSelfCalibration
                 0x00000000       0x18 ..\obj\DrvADC.o
  .text.DrvADC_IsCalibrationDone
-                0x00000000       0x24 ..\obj\DrvADC.o
+                0x00000000       0x28 ..\obj\DrvADC.o
  .text.DrvADC_DisableSelfCalibration
                 0x00000000       0x18 ..\obj\DrvADC.o
  .text.DrvADC_GetVersion
                 0x00000000       0x10 ..\obj\DrvADC.o
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
- .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
- .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
- .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
- .text.memcpy   0x00000000       0x84 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x00000000       0x84 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a(lib_a-memcpy-stub.o)
 
 Memory Configuration
 
@@ -244,7 +244,7 @@ Linker script and memory map
 
                 0x20001000                _eram = 0x20001000
 
-.text           0x00000000     0x16ac
+.text           0x00000000     0x1610
  *(.isr_vector)
  .isr_vector    0x00000000       0xc0 ..\obj\startup_M051Series.o
                 0x00000000                g_pfnVectors
@@ -323,73 +323,73 @@ Linker script and memory map
                 0x000008f0       0x28 ..\obj\DrvSYS.o
                 0x000008f0                BOD_IRQHandler
  .text.DrvSYS_SelectHCLKSource
-                0x00000918       0x80 ..\obj\DrvSYS.o
+                0x00000918       0x84 ..\obj\DrvSYS.o
                 0x00000918                DrvSYS_SelectHCLKSource
  .text.DrvSYS_SelectSysTickSource
-                0x00000998       0x50 ..\obj\DrvSYS.o
-                0x00000998                DrvSYS_SelectSysTickSource
+                0x0000099c       0x50 ..\obj\DrvSYS.o
+                0x0000099c                DrvSYS_SelectSysTickSource
  .text.DrvSYS_SetOscCtrl
-                0x000009e8       0x94 ..\obj\DrvSYS.o
-                0x000009e8                DrvSYS_SetOscCtrl
+                0x000009ec       0x94 ..\obj\DrvSYS.o
+                0x000009ec                DrvSYS_SetOscCtrl
  .text.PWRWU_IRQHandler
-                0x00000a7c       0x28 ..\obj\DrvSYS.o
-                0x00000a7c                PWRWU_IRQHandler
+                0x00000a80       0x28 ..\obj\DrvSYS.o
+                0x00000a80                PWRWU_IRQHandler
  .text.DrvSYS_GetPLLContent
-                0x00000aa4      0x108 ..\obj\DrvSYS.o
-                0x00000aa4                DrvSYS_GetPLLContent
+                0x00000aa8      0x108 ..\obj\DrvSYS.o
+                0x00000aa8                DrvSYS_GetPLLContent
  .text.DrvSYS_SetPLLContent
-                0x00000bac       0x74 ..\obj\DrvSYS.o
-                0x00000bac                DrvSYS_SetPLLContent
+                0x00000bb0       0x74 ..\obj\DrvSYS.o
+                0x00000bb0                DrvSYS_SetPLLContent
  .text.DrvSYS_Open
-                0x00000c20       0xf4 ..\obj\DrvSYS.o
-                0x00000c20                DrvSYS_Open
+                0x00000c24      0x100 ..\obj\DrvSYS.o
+                0x00000c24                DrvSYS_Open
  .text.DrvSYS_GetChipClockSourceStatus
-                0x00000d14       0x74 ..\obj\DrvSYS.o
-                0x00000d14                DrvSYS_GetChipClockSourceStatus
+                0x00000d24       0x84 ..\obj\DrvSYS.o
+                0x00000d24                DrvSYS_GetChipClockSourceStatus
  .text.adc_init
-                0x00000d88       0x34 ..\obj\adc.o
-                0x00000d88                adc_init
+                0x00000da8       0x34 ..\obj\adc.o
+                0x00000da8                adc_init
  .text.ADC_ConvReady_CallBack
-                0x00000dbc       0x44 ..\obj\adc.o
-                0x00000dbc                ADC_ConvReady_CallBack
+                0x00000ddc       0x44 ..\obj\adc.o
+                0x00000ddc                ADC_ConvReady_CallBack
  .text.level_search
-                0x00000e00       0xbc ..\obj\adc.o
-                0x00000e00                level_search
+                0x00000e20       0xbc ..\obj\adc.o
+                0x00000e20                level_search
  .text.adc_addvalue
-                0x00000ebc      0x19c ..\obj\adc.o
-                0x00000ebc                adc_addvalue
+                0x00000edc       0xc4 ..\obj\adc.o
+                0x00000edc                adc_addvalue
  .text.SystemCoreClockUpdate
-                0x00001058       0xe4 ..\obj\system_M051Series.o
-                0x00001058                SystemCoreClockUpdate
+                0x00000fa0       0xf4 ..\obj\system_M051Series.o
+                0x00000fa0                SystemCoreClockUpdate
  .text.SystemInit
-                0x0000113c        0x8 ..\obj\system_M051Series.o
-                0x0000113c                SystemInit
+                0x00001094        0x8 ..\obj\system_M051Series.o
+                0x00001094                SystemInit
  .text.NVIC_EnableIRQ
-                0x00001144       0x2c ..\obj\DrvADC.o
+                0x0000109c       0x2c ..\obj\DrvADC.o
  .text.NVIC_SetPriority
-                0x00001170       0xe0 ..\obj\DrvADC.o
+                0x000010c8       0xe0 ..\obj\DrvADC.o
  .text.DrvADC_Open
-                0x00001250      0x120 ..\obj\DrvADC.o
-                0x00001250                DrvADC_Open
+                0x000011a8      0x120 ..\obj\DrvADC.o
+                0x000011a8                DrvADC_Open
  .text.DrvADC_EnableADCInt
-                0x00001370       0x54 ..\obj\DrvADC.o
-                0x00001370                DrvADC_EnableADCInt
+                0x000012c8       0x54 ..\obj\DrvADC.o
+                0x000012c8                DrvADC_EnableADCInt
  .text.ADC_IRQHandler
-                0x000013c4       0xb8 ..\obj\DrvADC.o
-                0x000013c4                ADC_IRQHandler
+                0x0000131c       0xc0 ..\obj\DrvADC.o
+                0x0000131c                ADC_IRQHandler
  .text.DrvADC_StartConvert
-                0x0000147c       0x2c ..\obj\DrvADC.o
-                0x0000147c                DrvADC_StartConvert
+                0x000013dc       0x2c ..\obj\DrvADC.o
+                0x000013dc                DrvADC_StartConvert
  .text.DrvADC_GetConversionData
-                0x000014a8       0x24 ..\obj\DrvADC.o
-                0x000014a8                DrvADC_GetConversionData
- .text          0x000014cc       0x9c c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
-                0x000014cc                __aeabi_uidiv
-                0x000014cc                __udivsi3
-                0x00001554                __aeabi_uidivmod
- .text          0x00001568        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
-                0x00001568                __aeabi_idiv0
-                0x00001568                __aeabi_ldiv0
+                0x00001408       0x28 ..\obj\DrvADC.o
+                0x00001408                DrvADC_GetConversionData
+ .text          0x00001430       0x9c c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
+                0x00001430                __aeabi_uidiv
+                0x00001430                __udivsi3
+                0x000014b8                __aeabi_uidivmod
+ .text          0x000014cc        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x000014cc                __aeabi_idiv0
+                0x000014cc                __aeabi_ldiv0
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -403,111 +403,105 @@ Linker script and memory map
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x0000156c       0x78 ..\obj\DrvGPIO.o
- .rodata        0x000015e4       0xc8 ..\obj\adc.o
-                0x000015e4                adc_sqrt_levels
+ .rodata        0x000014d0       0x78 ..\obj\DrvGPIO.o
+ .rodata        0x00001548       0xc8 ..\obj\adc.o
+                0x00001548                adc_sqrt_levels
  *(.eh_fram e*)
 
-.glue_7         0x000016ac        0x0
+.glue_7         0x00001610        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x000016ac        0x0
+.glue_7t        0x00001610        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x000016ac        0x0
+.vfp11_veneer   0x00001610        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x000016ac        0x0
+.v4_bx          0x00001610        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000016ac        0x0
+.iplt           0x00001610        0x0
  .iplt          0x00000000        0x0 ..\obj\startup_M051Series.o
 
-.rel.dyn        0x000016ac        0x0
+.rel.dyn        0x00001610        0x0
  .rel.iplt      0x00000000        0x0 ..\obj\startup_M051Series.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000016ac                __exidx_start = .
+                0x00001610                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000016ac                __exidx_end = .
-                0x000016ac                __etext = .
-                0x000016ac                _sidata = __etext
+                0x00001610                __exidx_end = .
+                0x00001610                __etext = .
+                0x00001610                _sidata = __etext
 
-.data           0x20000000       0x24 load address 0x000016ac
+.data           0x20000000       0x1c load address 0x00001610
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
  *(.data*)
- .data          0x20000000        0x8 ..\obj\adc.o
-                0x20000000                adc_agnd
- .data          0x20000008       0x1c ..\obj\system_M051Series.o
-                0x20000008                SystemCoreClock
-                0x2000000c                CyclesPerUs
-                0x20000010                gau32ClkSrcTbl
-                0x20000024                . = ALIGN (0x4)
-                0x20000024                PROVIDE (__preinit_array_start, .)
+ .data          0x20000000       0x1c ..\obj\system_M051Series.o
+                0x20000000                SystemCoreClock
+                0x20000004                CyclesPerUs
+                0x20000008                gau32ClkSrcTbl
+                0x2000001c                . = ALIGN (0x4)
+                0x2000001c                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20000024                PROVIDE (__preinit_array_end, .)
-                0x20000024                . = ALIGN (0x4)
-                0x20000024                PROVIDE (__init_array_start, .)
+                0x2000001c                PROVIDE (__preinit_array_end, .)
+                0x2000001c                . = ALIGN (0x4)
+                0x2000001c                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
-                0x20000024                PROVIDE (__init_array_end, .)
-                0x20000024                . = ALIGN (0x4)
-                0x20000024                PROVIDE (__fini_array_start, .)
+                0x2000001c                PROVIDE (__init_array_end, .)
+                0x2000001c                . = ALIGN (0x4)
+                0x2000001c                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
-                0x20000024                PROVIDE (__fini_array_end, .)
+                0x2000001c                PROVIDE (__fini_array_end, .)
  *(.jcr*)
-                0x20000024                . = ALIGN (0x4)
-                0x20000024                __data_end__ = .
-                0x20000024                _edata = __data_end__
+                0x2000001c                . = ALIGN (0x4)
+                0x2000001c                __data_end__ = .
+                0x2000001c                _edata = __data_end__
 
-.igot.plt       0x20000024        0x0 load address 0x000016d0
+.igot.plt       0x2000001c        0x0 load address 0x0000162c
  .igot.plt      0x00000000        0x0 ..\obj\startup_M051Series.o
 
-.bss            0x20000028       0xdc load address 0x000016d8
-                0x20000028                . = ALIGN (0x4)
-                0x20000028                __bss_start__ = .
-                0x20000028                _sbss = __bss_start__
+.bss            0x20000020       0x54 load address 0x00001630
+                0x20000020                . = ALIGN (0x4)
+                0x20000020                __bss_start__ = .
+                0x20000020                _sbss = __bss_start__
  *(.bss*)
- .bss           0x20000028       0x10 ..\obj\DrvGPIO.o
- .bss           0x20000038        0x8 ..\obj\DrvSYS.o
- .bss           0x20000040       0x28 ..\obj\adc.o
-                0x20000040                adc_agnd_arr_pos
-                0x20000044                adc_result
-                0x20000048                adc_aggregate
-                0x20000058                adc_agnd_aggregate
-                0x20000060                adc_sample_pos
- .bss           0x20000068       0x18 ..\obj\DrvADC.o
+ .bss           0x20000020       0x10 ..\obj\DrvGPIO.o
+ .bss           0x20000030        0x8 ..\obj\DrvSYS.o
+ .bss           0x20000038       0x20 ..\obj\adc.o
+                0x20000038                adc_result
+                0x20000040                adc_aggregate
+                0x20000050                adc_sample_pos
+ .bss           0x20000058       0x18 ..\obj\DrvADC.o
  *(COMMON)
- COMMON         0x20000080        0x3 ..\obj\Bargraph.o
-                0x20000080                bg_r
-                0x20000081                bg_disp_pos
-                0x20000082                bg_l
- *fill*         0x20000083        0x1 
- COMMON         0x20000084       0x80 ..\obj\adc.o
-                0x20000084                adc_agnd_arr
-                0x20000104                . = ALIGN (0x4)
-                0x20000104                __bss_end__ = .
-                0x20000104                _ebss = __bss_end__
+ COMMON         0x20000070        0x3 ..\obj\Bargraph.o
+                0x20000070                bg_r
+                0x20000071                bg_disp_pos
+                0x20000072                bg_l
+                0x20000074                . = ALIGN (0x4)
+ *fill*         0x20000073        0x1 
+                0x20000074                __bss_end__ = .
+                0x20000074                _ebss = __bss_end__
 
-.heap           0x20000104        0x0
-                0x20000104                __end__ = .
-                0x20000104                _end = __end__
-                0x20000104                end = __end__
+.heap           0x20000074        0x0
+                0x20000074                __end__ = .
+                0x20000074                _end = __end__
+                0x20000074                end = __end__
  *(.heap*)
-                0x20000104                __HeapLimit = .
+                0x20000074                __HeapLimit = .
 
-.co_stack       0x20000104      0x404 load address 0x000017b4
-                0x20000108                . = ALIGN (0x8)
- *fill*         0x20000104        0x4 
+.co_stack       0x20000074      0x404 load address 0x00001684
+                0x20000078                . = ALIGN (0x8)
+ *fill*         0x20000074        0x4 
  *(.co_stack .co_stack.*)
- .co_stack      0x20000108      0x400 ..\obj\startup_M051Series.o
-                0x20000108                pulStack
+ .co_stack      0x20000078      0x400 ..\obj\startup_M051Series.o
+                0x20000078                pulStack
                 0x20001000                __StackTop = (ORIGIN (ram) + 0x1000)
                 0x20000bfc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
                 0x20001000                PROVIDE (__stack, __StackTop)
@@ -521,31 +515,31 @@ LOAD ..\obj\adc.o
 LOAD ..\obj\system_M051Series.o
 LOAD ..\obj\DrvADC.o
 START GROUP
-LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a
-LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libg.a
-LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libg.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m\libc.a
 END GROUP
 OUTPUT(VU001.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x7926
+.debug_info     0x00000000     0x7970
  .debug_info    0x00000000       0xff ..\obj\startup_M051Series.o
- .debug_info    0x000000ff      0x169 ..\obj\Bargraph.o
- .debug_info    0x00000268      0x3f5 ..\obj\main.o
- .debug_info    0x0000065d     0x2015 ..\obj\DrvGPIO.o
- .debug_info    0x00002672     0x21f9 ..\obj\DrvSYS.o
- .debug_info    0x0000486b      0x353 ..\obj\adc.o
- .debug_info    0x00004bbe      0x86f ..\obj\system_M051Series.o
- .debug_info    0x0000542d     0x24f9 ..\obj\DrvADC.o
+ .debug_info    0x000000ff      0x17f ..\obj\Bargraph.o
+ .debug_info    0x0000027e      0x400 ..\obj\main.o
+ .debug_info    0x0000067e     0x202b ..\obj\DrvGPIO.o
+ .debug_info    0x000026a9     0x221a ..\obj\DrvSYS.o
+ .debug_info    0x000048c3      0x30e ..\obj\adc.o
+ .debug_info    0x00004bd1      0x87a ..\obj\system_M051Series.o
+ .debug_info    0x0000544b     0x2525 ..\obj\DrvADC.o
 
-.debug_abbrev   0x00000000      0xd1f
+.debug_abbrev   0x00000000      0xd10
  .debug_abbrev  0x00000000       0xa7 ..\obj\startup_M051Series.o
  .debug_abbrev  0x000000a7       0xbb ..\obj\Bargraph.o
  .debug_abbrev  0x00000162      0x150 ..\obj\main.o
  .debug_abbrev  0x000002b2      0x2dc ..\obj\DrvGPIO.o
  .debug_abbrev  0x0000058e      0x2d7 ..\obj\DrvSYS.o
- .debug_abbrev  0x00000865       0xfd ..\obj\adc.o
- .debug_abbrev  0x00000962      0x10e ..\obj\system_M051Series.o
- .debug_abbrev  0x00000a70      0x2af ..\obj\DrvADC.o
+ .debug_abbrev  0x00000865       0xee ..\obj\adc.o
+ .debug_abbrev  0x00000953      0x10e ..\obj\system_M051Series.o
+ .debug_abbrev  0x00000a61      0x2af ..\obj\DrvADC.o
 
 .debug_aranges  0x00000000      0x4d8
  .debug_aranges
@@ -575,33 +569,33 @@ OUTPUT(VU001.elf elf32-littlearm)
  .debug_ranges  0x00000320       0x18 ..\obj\system_M051Series.o
  .debug_ranges  0x00000338      0x120 ..\obj\DrvADC.o
 
-.debug_line     0x00000000     0x1b0a
+.debug_line     0x00000000     0x1dc7
  .debug_line    0x00000000       0xc6 ..\obj\startup_M051Series.o
- .debug_line    0x000000c6      0x1c9 ..\obj\Bargraph.o
- .debug_line    0x0000028f      0x265 ..\obj\main.o
- .debug_line    0x000004f4      0x62a ..\obj\DrvGPIO.o
- .debug_line    0x00000b1e      0x737 ..\obj\DrvSYS.o
- .debug_line    0x00001255      0x1d9 ..\obj\adc.o
- .debug_line    0x0000142e      0x137 ..\obj\system_M051Series.o
- .debug_line    0x00001565      0x5a5 ..\obj\DrvADC.o
+ .debug_line    0x000000c6      0x234 ..\obj\Bargraph.o
+ .debug_line    0x000002fa      0x2d0 ..\obj\main.o
+ .debug_line    0x000005ca      0x695 ..\obj\DrvGPIO.o
+ .debug_line    0x00000c5f      0x7a2 ..\obj\DrvSYS.o
+ .debug_line    0x00001401      0x214 ..\obj\adc.o
+ .debug_line    0x00001615      0x1a2 ..\obj\system_M051Series.o
+ .debug_line    0x000017b7      0x610 ..\obj\DrvADC.o
 
-.debug_str      0x00000000     0x2f0c
+.debug_str      0x00000000     0x2ee4
  .debug_str     0x00000000      0x161 ..\obj\startup_M051Series.o
                                 0x173 (size before relaxing)
- .debug_str     0x00000161      0x130 ..\obj\Bargraph.o
-                                0x1f1 (size before relaxing)
- .debug_str     0x00000291      0x2da ..\obj\main.o
-                                0x3f6 (size before relaxing)
- .debug_str     0x0000056b     0x15c3 ..\obj\DrvGPIO.o
-                               0x1a67 (size before relaxing)
- .debug_str     0x00001b2e      0xb5f ..\obj\DrvSYS.o
-                               0x1e90 (size before relaxing)
- .debug_str     0x0000268d      0x1c0 ..\obj\adc.o
-                                0x45f (size before relaxing)
- .debug_str     0x0000284d       0xc5 ..\obj\system_M051Series.o
-                                0x4a1 (size before relaxing)
- .debug_str     0x00002912      0x5fa ..\obj\DrvADC.o
-                               0x1c0c (size before relaxing)
+ .debug_str     0x00000161      0x13c ..\obj\Bargraph.o
+                                0x206 (size before relaxing)
+ .debug_str     0x0000029d      0x2da ..\obj\main.o
+                                0x401 (size before relaxing)
+ .debug_str     0x00000577     0x15c3 ..\obj\DrvGPIO.o
+                               0x1a7c (size before relaxing)
+ .debug_str     0x00001b3a      0xb61 ..\obj\DrvSYS.o
+                               0x1eaf (size before relaxing)
+ .debug_str     0x0000269b      0x188 ..\obj\adc.o
+                                0x445 (size before relaxing)
+ .debug_str     0x00002823       0xc5 ..\obj\system_M051Series.o
+                                0x4ac (size before relaxing)
+ .debug_str     0x000028e8      0x5fc ..\obj\DrvADC.o
+                               0x1c36 (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ..\obj\startup_M051Series.o
@@ -633,9 +627,9 @@ OUTPUT(VU001.elf elf32-littlearm)
  .ARM.attributes
                 0x00000157       0x31 ..\obj\DrvADC.o
  .ARM.attributes
-                0x00000188       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00000188       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000001a6       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x000001a6       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_dvmd_tls.o)
 
 .debug_frame    0x00000000     0x1078
  .debug_frame   0x00000000       0x4c ..\obj\startup_M051Series.o
@@ -646,4 +640,4 @@ OUTPUT(VU001.elf elf32-littlearm)
  .debug_frame   0x00000b44       0x94 ..\obj\adc.o
  .debug_frame   0x00000bd8       0x4c ..\obj\system_M051Series.o
  .debug_frame   0x00000c24      0x434 ..\obj\DrvADC.o
- .debug_frame   0x00001058       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001058       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2014q2/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m\libgcc.a(_udivsi3.o)
