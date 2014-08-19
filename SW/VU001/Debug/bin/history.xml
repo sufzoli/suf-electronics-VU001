@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=VU001.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\VU001 -TC:\CooCox\CoIDE\configuration\ProgramData\VU001/arm-gcc-link.ld -g">
+      <target file="VU001.elf" lastModified="14476c1ae89">
+         <source file="..\obj\startup_M051Series.o" lastModified="14471a2524a"/>
+         <source file="..\obj\Bargraph.o" lastModified="14471a25316"/>
+         <source file="..\obj\main.o" lastModified="14471c180b8"/>
+         <source file="..\obj\DrvGPIO.o" lastModified="14471a25511"/>
+         <source file="..\obj\DrvSYS.o" lastModified="14471a2560f"/>
+         <source file="..\obj\adc.o" lastModified="14476c1abab"/>
+         <source file="..\obj\system_M051Series.o" lastModified="14471a2573d"/>
+         <source file="..\obj\DrvADC.o" lastModified="14471a2581d"/>
+      </target>
+   </processor>
+</history>

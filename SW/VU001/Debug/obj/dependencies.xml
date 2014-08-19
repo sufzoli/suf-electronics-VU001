@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_boot /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001 /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include\Driver /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include\System /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_core">
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h" lastModified="14456873b34">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+         <include file="..\..\..\cmsis_lib\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\Bargraph.c" lastModified="14465cca3db">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_M051Series.c" lastModified="1445687278b">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h" lastModified="14456872820">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\Driver\DrvADC.c" lastModified="14456873b3c">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\M051Series.h" lastModified="14456872784">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_boot\system_M051Series.h"/>
+         <include file="..\..\..\cmsis_lib\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\System\ModuleID.h" lastModified="144568727d0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_M051Series.h" lastModified="14456872794">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h" lastModified="14456872761">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+      </source>
+      <source file="..\..\..\Bargraph.h" lastModified="144568f11c2">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_boot /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001 /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include\System /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include\Driver /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include /I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_core">
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h" lastModified="14456873b34">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+         <include file="..\..\..\cmsis_lib\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\Bargraph.c" lastModified="14465cca3db">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_M051Series.c" lastModified="1445687278b">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h" lastModified="14456872820">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\Driver\DrvADC.c" lastModified="14456873b3c">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\System\SysInfra.h" lastModified="14456872bd6">
+         <include file="..\..\..\cmsis_lib\Include\System\ModuleID.h"/>
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\Driver\DrvSYS.c" lastModified="14456872c10">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h"/>
+      </source>
+      <source file="..\..\..\adc.h" lastModified="14471c17a6b">
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmInstr.h" lastModified="14456872f83">
+      </source>
+      <source file="..\..\..\cmsis_boot\M051Series.h" lastModified="14456872784">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_boot\system_M051Series.h"/>
+         <include file="..\..\..\cmsis_lib\Include\System\SysInfra.h"/>
+      </source>
+      <source file="..\..\..\adc.c" lastModified="14476c1a3f2">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvADC.h"/>
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h"/>
+         <include file="..\..\..\adc.h"/>
+         <include file="..\..\..\Bargraph.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Source\Driver\DrvGPIO.c" lastModified="14456872b51">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\System\ModuleID.h" lastModified="144568727d0">
+      </source>
+      <source file="..\..\..\main.c" lastModified="14471a245e2">
+         <include file="..\..\..\cmsis_lib\Include\Driver\DrvSYS.h"/>
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+         <include file="..\..\..\Bargraph.h"/>
+         <include file="..\..\..\adc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_M051Series.h" lastModified="14456872794">
+      </source>
+      <source file="..\..\..\cmsis_lib\Include\Driver\DrvGPIO.h" lastModified="14456872761">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="14456872b8a">
+         <include file="..\..\..\cmsis_core\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="14456872f7a">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_M051Series.c" lastModified="14456872b78">
+         <include file="..\..\..\cmsis_boot\M051Series.h"/>
+      </source>
+      <source file="..\..\..\Bargraph.h" lastModified="144568f11c2">
+      </source>
+   </includePath>
+</dependencies>

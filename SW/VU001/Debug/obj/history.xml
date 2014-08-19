@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DM0516LBN -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_boot -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001 -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include\System -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include\Driver -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_lib\Include -I..\..\..\..\..\DATA\SourceControll\SUF-GitHub\Electronics\suf-electronics-VU001\SW\cmsis_core">
+      <target file="DrvADC.o" lastModified="14471a2581d">
+         <source file="..\..\..\cmsis_lib\Source\Driver\DrvADC.c" lastModified="14456873b3c"/>
+      </target>
+      <target file="DrvGPIO.o" lastModified="14471a25511">
+         <source file="..\..\..\cmsis_lib\Source\Driver\DrvGPIO.c" lastModified="14456872769"/>
+      </target>
+      <target file="DrvSYS.o" lastModified="14471a2560f">
+         <source file="..\..\..\cmsis_lib\Source\Driver\DrvSYS.c" lastModified="14456872828"/>
+      </target>
+      <target file="startup_M051Series.o" lastModified="14471a2524a">
+         <source file="..\..\..\cmsis_boot\startup\startup_M051Series.c" lastModified="1445687278b"/>
+      </target>
+      <target file="main.o" lastModified="14471c180b8">
+         <source file="..\..\..\main.c" lastModified="14471a245e2"/>
+      </target>
+      <target file="adc.o" lastModified="14476c1abab">
+         <source file="..\..\..\adc.c" lastModified="14476c1a3f2"/>
+      </target>
+      <target file="system_M051Series.o" lastModified="14471a2573d">
+         <source file="..\..\..\cmsis_boot\system_M051Series.c" lastModified="14456872790"/>
+      </target>
+      <target file="Bargraph.o" lastModified="14471a25316">
+         <source file="..\..\..\Bargraph.c" lastModified="14465cca3db"/>
+      </target>
+   </processor>
+</history>
