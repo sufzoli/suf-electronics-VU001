@@ -66,7 +66,6 @@
   </Target>
   <Components path="./">
     <Component id="46" name="M0 Cmsis Core" path="" type="2"/>
-    <Component id="364" name="CMSIS Boot" path="" type="2"/>
     <Component id="365" name="System Definitions" path="" type="2"/>
     <Component id="366" name="SYS" path="" type="2"/>
     <Component id="367" name="GPIO" path="" type="2"/>
@@ -80,8 +79,8 @@
     <File name="cmsis_boot" path="" type="2"/>
     <File name="Bargraph.h" path="Bargraph.h" type="1"/>
     <File name="cmsis_core/core_cmFunc.h" path="cmsis_core/core_cmFunc.h" type="1"/>
-    <File name="cmsis_lib/Include/System/ModuleID.h" path="cmsis_lib/Include/System/ModuleID.h" type="1"/>
     <File name="cmsis_lib/Include/Driver/DrvSYS.h" path="cmsis_lib/Include/Driver/DrvSYS.h" type="1"/>
+    <File name="cmsis_lib/Include/System/ModuleID.h" path="cmsis_lib/Include/System/ModuleID.h" type="1"/>
     <File name="cmsis_lib/Include/Driver/DrvADC.h" path="cmsis_lib/Include/Driver/DrvADC.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_lib/Include/System" path="" type="2"/>
